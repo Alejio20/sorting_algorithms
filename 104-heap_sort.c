@@ -2,8 +2,8 @@
 
 /**
  * swapping - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * @x: The first integer to swap.
+ * @y: The second integer to swap.
  */
 void swapping(int *x, int *y)
 {
