@@ -67,7 +67,7 @@ void merge_sort(int *array, size_t size)
 	if (array == NULL || size < 2)
 		return;
 
-	buff = malloc(sizeof(int) * size);
+	buf = malloc(sizeof(int) * size);
 	if (buf == NULL)
 		return;
 
