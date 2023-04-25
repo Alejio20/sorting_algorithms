@@ -4,9 +4,9 @@
  * get_max - Get the maximum value in an array of integers.
  * @array: An array of integers.
  * @size: The size of the array.
- *
  * Return: The maximum integer in the array.
  */
+
 int get_max(int *arr, int size)
 {
 	int max, i;
@@ -25,9 +25,9 @@ int get_max(int *arr, int size)
  *                 using the counting sort algorithm.
  * @array: An array of integers.
  * @size: The size of the array.
- *
  * Description: Prints the counting array after setting it up.
  */
+
 void counting_sort(int *arr, size_t size)
 {
 	int *count, *sorted, max, i;
